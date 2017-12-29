@@ -1,0 +1,15 @@
+[package]
+name = "pixel_flut"
+version = "0.1.0"
+authors = ["kloumpt <serge.molina+git@kloumpt.net>"]
+
+[dependencies]
+image = "*"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "pixelflood_gen"
+path = "src/bin/pixelflood_gen.rs"
